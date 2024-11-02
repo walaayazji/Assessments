@@ -14,6 +14,6 @@ public class MultiplicationTable : MonoBehaviour
         for (int i= 1; i<=10; i++){
         int j= Multiply(5,i);
         Debug.Log($"5 * {i} = {j}");
-    }
+        }
     }
 }
