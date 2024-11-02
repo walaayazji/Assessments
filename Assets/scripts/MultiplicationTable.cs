@@ -4,8 +4,7 @@ using UnityEngine;
 
 public class MultiplicationTable : MonoBehaviour
 {
-   
-    int  Multiply (int number1, int number2)    
+    int  Multiply (int number1, int number2)
     {
         int sum = number1 * number2;
         return sum;
