@@ -65,19 +65,19 @@ namespace Assignment26
         List<Creature> creatures;
         void Start()
         {
-            creatures = new List<Creature> { new Kangaroo(), new Duck() };
-            runnables = new List<IRunnable>();
-            jumpables = new List<IJumpable>();
-            swimmales = new List<ISwimmable>();
-
             Kangaroo kangaroo = new Kangaroo();
             Duck duck = new Duck();
 
-            runnables.Add(kangaroo);
-            jumpables.Add(kangaroo);
+            creatures = new List<Creature> { kangaroo, duck };
+            runnables = new List<IRunnable>() { kangaroo, duck };
+            jumpables = new List<IJumpable>() { kangaroo };
+            swimmales = new List<ISwimmable>() { duck };
 
-            runnables.Add(duck);
-            swimmales.Add(duck);
+            //runnables.Add(kangaroo);
+            //jumpables.Add(kangaroo);
+
+            //runnables.Add(duck);
+            //swimmales.Add(duck);
 
             foreach (Creature creature in creatures)
             {
