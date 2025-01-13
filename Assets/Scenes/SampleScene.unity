@@ -387,6 +387,7 @@ GameObject:
   m_Component:
   - component: {fileID: 832575519}
   - component: {fileID: 832575518}
+  - component: {fileID: 832575520}
   m_Layer: 0
   m_Name: Global Volume
   m_TagString: Untagged
@@ -426,6 +427,18 @@ Transform:
   m_Children: []
   m_Father: {fileID: 0}
   m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}
+--- !u!114 &832575520
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 832575517}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: e29aa4bea30d6d7449eb9be6b3c4a388, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 
 --- !u!1 &1701142472
 GameObject:
   m_ObjectHideFlags: 0
@@ -435,7 +448,7 @@ GameObject:
   serializedVersion: 6
   m_Component:
   - component: {fileID: 1701142474}
-  - component: {fileID: 1701142475}
+  - component: {fileID: 1701142476}
   m_Layer: 0
   m_Name: GameObject
   m_TagString: Untagged
@@ -458,7 +471,7 @@ Transform:
   m_Children: []
   m_Father: {fileID: 0}
   m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}
---- !u!114 &1701142475
+--- !u!114 &1701142476
 MonoBehaviour:
   m_ObjectHideFlags: 0
   m_CorrespondingSourceObject: {fileID: 0}
@@ -467,10 +480,9 @@ MonoBehaviour:
   m_GameObject: {fileID: 1701142472}
   m_Enabled: 1
   m_EditorHideFlags: 0
-  m_Script: {fileID: 11500000, guid: 41de720ddef259c478992b6403746928, type: 3}
+  m_Script: {fileID: 11500000, guid: a84db16e1c21a30449a8712f64b87417, type: 3}
   m_Name: 
   m_EditorClassIdentifier: 
-  raceState: 0
 --- !u!1660057539 &9223372036854775807
 SceneRoots:
   m_ObjectHideFlags: 0
